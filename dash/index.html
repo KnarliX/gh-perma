@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>gh-perma — Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/styles/dash.css" />
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1>gh-perma</h1>
+      <p>Permanent GitHub URLs powered by immutable user IDs.</p>
+    </header>
+
+    <section class="card">
+      <label for="input">GitHub username or URL</label>
+      <input
+        id="input"
+        type="text"
+        placeholder="knarliX or https://github.com/knarliX/repo"
+        autocomplete="off"
+      />
+
+      <button id="generate">Generate permanent URL</button>
+
+      <div id="result" class="result hidden">
+        <span>Permanent URL</span>
+        <div class="result-row">
+          <input id="output" type="text" readonly />
+          <button id="copy">Copy</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Infra-grade GitHub identity resolver
+    </footer>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-box">
+      <h2 id="modal-title"></h2>
+      <p id="modal-message"></p>
+      <div class="modal-actions">
+        <button id="modal-ok">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/dash.js"></script>
+</body>
+</html>
