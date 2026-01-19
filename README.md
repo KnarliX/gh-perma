@@ -51,7 +51,7 @@ Pure client-side + GitHub API.
 `https://gh-perma.pages.dev?id=USER_ID&path=repo/tree/main`
 ### Examples
 - [https://gh-perma.pages.dev?id=172272341](https://gh-perma.pages.dev?id=172272341)
-- [https:/*/gh-perma.pages.dev?id=172272341&path=Discord-Auth/tree/main](https://gh-perma.pages.dev?id=172272341&path=Discord-Auth/tree/main)
+- [https://gh-perma.pages.dev?id=172272341&path=Discord-Auth/tree/main](https://gh-perma.pages.dev?id=172272341&path=Discord-Auth/tree/main)
 
 ---
 
